@@ -1,0 +1,69 @@
+{
+	"id": "4f4997b2-f934-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-07T08:09:18.426Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "6afe8d78-3701-40f5-d59f-1e320b9ef685",
+			"fieldName": "po_number",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "890d7cd3-f2cd-457b-b592-38349fc91295",
+			"fieldName": "customer_no",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "efde1f89-05b1-4d4f-b36b-0a42ce60c18b",
+			"fieldName": "customer_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0bef40c5-f615-45cf-f0b3-c897d9011285",
+			"fieldName": "cost_center_number",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "3fb47fab-5344-414d-819e-b813eb693f62",
+			"fieldName": "cost_center_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "f6447a3c-85c7-4a13-f638-62c56063562b",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Open, Settled",
+			"isNullable": true
+		},
+		{
+			"id": "515162fc-6c2a-430f-8b24-f6736b8c7ce7",
+			"fieldName": "date_generated",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cdf64c1c-dc2f-41b1-bc3a-db1319b765c7",
+			"fieldName": "amount",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "sample_invoice_details",
+	"description": null,
+	"ver": "23.10.20.168",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "8a9c6b21-526f-ee11-9937-0022489e2195",
+	"rolesRead": [],
+	"rolesWrite": []
+}

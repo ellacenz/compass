@@ -1,0 +1,85 @@
+{
+	"id": "8a9c6b21-526f-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-20T14:08:24.393Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/ellacenz/compass"
+	},
+	"name": "compass charts",
+	"description": null,
+	"ver": "23.10.20.1457",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "4f4997b2-f934-ee11-b8f0-000d3a661446",
+			"name": "sample_invoice_details",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "eaa3cf17-416f-ee11-9937-0022489e2195",
+			"name": "Invoice_analysis_quarterly",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "aefa95f6-536f-ee11-9937-0022489e2195",
+			"name": "Invoice_analysis_table",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "36d1dc7f-4e6f-ee11-9937-0022489e2195",
+			"name": "Invoice_analysis_bar",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "19cf00c9-4f6f-ee11-9937-0022489e2195",
+			"name": "Invoice_analysis_monthly",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "030be649-536f-ee11-9937-0022489e2195",
+			"name": "Invoice_analysis_customer",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "691ba3ee-406f-ee11-9937-0022489e2195",
+			"name": "sample_invoice_details",
+			"description": null
+		}
+	],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

@@ -1,0 +1,164 @@
+{
+	"id": "030be649-536f-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-20T14:16:41.796Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": "500",
+				"chartType": "pie",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": true,
+				"alpha3D": "10",
+				"beta3D": "0",
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"chartColor": "[\"#00839B\", \"#83C8BC\", \"#003E52\"]",
+				"colorMonochrome": "#46d6ab",
+				"brightenMonochrome": "0.05",
+				"title": "Invoice by Customer"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "po_number",
+				"label": "po_number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_no",
+				"label": "customer_no",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_name",
+				"label": "customer_name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "cost_center_number",
+				"label": "cost_center_number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "cost_center_name",
+				"label": "cost_center_name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Open, Settled",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "date_generated",
+				"label": "date_generated",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "amount",
+				"label": "amount",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "amount",
+				"text": "amount",
+				"enableFilter": false,
+				"fieldPos": 1,
+				"type": "value"
+			},
+			{
+				"visible": true,
+				"name": "customer_name",
+				"text": "customer_name",
+				"fieldPos": 2,
+				"type": "category"
+			}
+		],
+		"defaultVariant": {
+			"id": "96eb8d9c-66d1-4f00-b70a-b4fb0f5d18ce",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "Invoice_analysis_customer",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "691ba3ee-406f-ee11-9937-0022489e2195",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.10.20.1419",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "8a9c6b21-526f-ee11-9937-0022489e2195",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

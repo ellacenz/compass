@@ -1,0 +1,17 @@
+{
+	"id": "691ba3ee-406f-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-20T12:05:17.736Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "4f4997b2-f934-ee11-b8f0-000d3a661446"
+	},
+	"documentation": {},
+	"name": "sample_invoice_details",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "23.10.20.1410",
+	"disabled": false,
+	"package": "8a9c6b21-526f-ee11-9937-0022489e2195"
+}
